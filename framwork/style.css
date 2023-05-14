@@ -1,0 +1,92 @@
+.main{ 
+ background-image: linear-gradient(to right, rgb(232, 240, 232), rgb(148, 230, 148));
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  
+}
+
+#product{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+        
+   
+.enjoy{
+    text-align: center;
+    font-size: 0.9em;
+}
+.image1{
+    display: flex;
+    position: relative;
+    left: 20%;
+    filter: drop-shadow(8px 8px 4px  #201f1c);
+}
+
+    
+   
+      
+   
+#word{
+    display: flex;
+    position: relative;
+    left: 25%;
+    gap: 120px;
+    
+}
+
+
+  
+     
+           
+   
+.img2{
+    display: flex;
+    position: relative;
+    left: 20%;
+    filter: drop-shadow(8px 8px 4px  #20201e);
+}
+
+       
+   
+#a{
+    width: 14%;
+}
+#b{
+    width: 19%;
+    position: relative;
+    right: 1%;
+}
+#c{
+  
+    position: relative;
+    right: 5%;
+    top: 18px;
+}
+#d{
+  
+    position: relative;
+    right: 5%;
+    
+    width: 13%;
+  
+    height:170px;
+    top: 18px;
+}
+
+
+@media (max-width: 800px) {
+     .image1{
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+     }
+
+   .img2{
+    display: grid;
+    grid-template-columns: repeat(1,4fr);
+   }
+
+
+}
